@@ -1,0 +1,188 @@
+@media (min-width: 480px) {
+    
+}
+@media (min-width: 768px) {
+    /*
+    Jumbotron component
+    De jumbotron heeft op grote schermen een andere lay-out dan op kleine schermen
+    Hoe het op een groot scherm uit ziet bepalen we binnen de media-query.
+    Mobile-first dus de css-code voor mobiel staat bij de algemene css hierboven.
+    */
+    .jumbotron {
+        position: relative;
+        height: 450px;
+        margin-bottom: var(--grid-gutter);
+    }
+    .jumbotron img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .jumbotron_txt {
+        z-index:10;
+        position: absolute;
+        bottom: 12px;
+        left: 50px;
+        
+    }
+    .jumbotron_txt p {
+        color: var(--color-orange);
+        width: 50%;
+        padding: 6px;
+        color: white;
+        background-color: rgba(0,0,0,0.8);
+    }
+}
+@media (min-width: 960px) {
+    
+}
+
+/* 
+Custom Styling
+*/
+body {
+    background-color: #ffffff;
+}
+
+
+/* biography */
+
+.aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+#biography li {
+    color: black;
+    margin-bottom: 10px;
+}
+
+
+/* cards */
+.card_row > div {
+    display: flex;
+    align-items: stretch;
+}
+
+.card {
+    height: 600px;
+    margin-bottom: 24px;
+    background: lightgrey;
+    position: relative;
+}
+
+.card_image_container {
+    height: 235px;
+}
+
+.card_image_container img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card_txt_container {
+    min-height: 100px;
+    padding: 0 15px;
+}
+
+.info_button {
+    display: inline-block;
+    position: relative;
+    padding: 3px;
+    background-color:black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.card_owner a {
+    position: absolute;
+    bottom: 6px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: darkgrey;
+}
+
+.card_info_container p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
+h1 {
+    color: black;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/* footer */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
+.aside h2 {
+    color: darkgray;
+}
+
+.main-article h2 {
+    font-size: 33px;
+    line-height: 1.1em;
+}
+
+@media (min-width: 480px) {
+    
+}
+@media (min-width: 768px) {
+    /*
+    Jumbotron component
+    De jumbotron heeft op grote schermen een andere lay-out dan op kleine schermen
+    Hoe het op een groot scherm uit ziet bepalen we binnen de media-query.
+    Mobile-first dus de css-code voor mobiel staat bij de algemene css hierboven.
+    */
+    .jumbotron {
+        position: relative;
+        height: 450px;
+        margin-bottom: var(--grid-gutter);
+    }
+    .jumbotron img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .jumbotron_txt {
+        z-index:10;
+        position: absolute;
+        bottom: 12px;
+        left: 50px;
+        
+    }
+    .jumbotron_txt p {
+        color: var(--color-orange);
+        width: 50%;
+        padding: 6px;
+        color: white;
+        background-color: rgba(0,0,0,0.8);
+    }
+}
+@media (min-width: 960px) {
+    
+}
